@@ -21,5 +21,9 @@ FollowNumbers.py: Script written to perform a variety of follow the numbers task
 Used to generate animal-specific datasets from the full Pfam dataset of James et al., and animal specific datasets for the intergenic genome scan data (aka interpro hits).  
 Used to restrict dataset to only Pfams with z-scores < -2, indicating a random distribution across the total species phylogeny, either with or without the intergenic genome scan data (aka interpro hits).
 
+Output.zip: Compressed folder of output files for PfamMLLikeBayesPipeline_AnimalOnly.py: 'PfamMLLikeBayesPipeline_MLLoss_AnimalOnly_track.txt', the ML loss rate results tracking changes through iterations, 'PfamMLLikeBayesPipeline_MLLoss_AnimalOnly.txt', which provides the final results ML loss rates and final species compositions as assigned through the false positive pipeline, 'PfamMLLikeBayesPipeline_OrigLoss_AnimalOnly_track.txt', parsimony loss rates tracking iterations (unchanging), 'PfamMLLikeBayesPipeline_OrigLoss_AnimalOnly.txt', the parsimony loss rates given the original species composition. 
+Columns are: 'Pfam	Species	Speciations	Losses	ParsimonyLoss	ParsimonyLossRate	MLLossRate	SecondDerivative	Date	SpeciesList'
+        
+
 
 
