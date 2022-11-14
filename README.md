@@ -1,5 +1,5 @@
 # DomainLossRate
-Scripts used in analysing rates of pfam domain loss rates across animal species.
+Scripts used in analysing rates of pfam domain loss rates across animal species. Pipeline scripts were written by Jennifer James and Paul Nelson. Sara Willis wrote the original DataPfams script. All other python and R scripts written by Jennifer James.
 
 pfams_w_additions_Animal_ex_contaminants.txt.gz
 PfamUIDsTable_Animal_ex_contaminants.txt.gz
