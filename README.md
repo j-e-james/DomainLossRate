@@ -24,7 +24,7 @@ Used to restrict dataset to only Pfams with z-scores < -2, indicating a random d
 Output.zip: Compressed folder of output files for PfamMLLikeBayesPipeline_AnimalOnly.py: 'PfamMLLikeBayesPipeline_MLLoss_AnimalOnly_track.txt', the ML loss rate results tracking changes through iterations, 'PfamMLLikeBayesPipeline_MLLoss_AnimalOnly.txt', which provides the final results ML loss rates and final species compositions as assigned through the false positive pipeline, 'PfamMLLikeBayesPipeline_OrigLoss_AnimalOnly_track.txt', parsimony loss rates tracking iterations (unchanging), 'PfamMLLikeBayesPipeline_OrigLoss_AnimalOnly.txt', the parsimony loss rates given the original species composition. 
 Columns are: 'Pfam	Species	Speciations	Losses	ParsimonyLoss	ParsimonyLossRate	MLLossRate	SecondDerivative	Date	SpeciesList'
         
-Rscript_LossRateAnalyses.R: An Rscript in a rough state, which along with three input files, PfamMLLikeBayesPipeline_MLLoss_AnimalOnly.txt, Count_pfam_animal.tsv and PfamUIDsTable_EnsemblAndNCBI.csv, can be used to produce all plots and statistical analyses presented in the manuscript.
+Rscript_LossRateAnalyses.R: An Rscript in a rough state, which along with three input files, PfamMLLikeBayesPipeline_MLLoss_AnimalOnly.txt, Count_pfam_animal.tsv and PfamUIDsTable_EnsemblAndNCBI.csv, can be used to produce all plots and statistical analyses presented in the manuscript 'Differential retention of Pfam domains contributes to long-term evolutionary trends', DOI: 10.1093/molbev/msad073
 
 
 
